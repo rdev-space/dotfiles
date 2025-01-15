@@ -8,6 +8,10 @@ compinit
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#46014a"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Aerospace
+# https://nikitabobko.github.io/AeroSpace/guide#config-location
+export XDG_CONFIG_HOME="/Users/rizqynugroho9/.config"
+
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship/starship.toml
 # file shit
