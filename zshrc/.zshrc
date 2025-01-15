@@ -4,8 +4,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit
 compinit
-source <(kubectl completion zsh)
-complete -C '/usr/local/bin/aws_completer' aws
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
